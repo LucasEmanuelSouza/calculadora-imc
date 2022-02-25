@@ -27,7 +27,7 @@ function imc(){
             classificacao = "com obesidade grau III,"
         }
 
-        resultado.textContent = `${nome} seu IMC é ${valorIMC} e você está ${classificacao}` //escreve o valor do imc no display resultado
+        resultado.textContent = `${nome} seu IMC é ${valorIMC}, e você está ${classificacao}` //escreve o valor do imc no display resultado
 
     }else{
         resultado.textContent = 'Preencha todos os campos' // se algum campo estiver vazio imprime no display esssa mensagem
